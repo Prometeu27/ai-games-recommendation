@@ -1,0 +1,17 @@
+table th,
+table td {
+    text-align: start;
+
+}
+
+table {
+}
+table tr:nth-child(odd) {
+    td {
+        background-color: rgb(236, 241, 255) !important;
+    }
+}
+
+.pagination li:hover {
+    cursor: pointer;
+}
