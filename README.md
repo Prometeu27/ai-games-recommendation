@@ -1,5 +1,5 @@
 # ai-games-recommendation
-Monkey Playin' is a games recommendation system using AI models.
+Monkey Playin' is a games recommendation system using AI models, for 1st year of Internet Systems Engineering Master's Degree.
 Made in collaboration with @robbycode29 (for the django server)
 
 Angular was used for frontend dev, using firebase for authentification, database and storage. Also, an additonal node server was created to process the request sent by the web app.
