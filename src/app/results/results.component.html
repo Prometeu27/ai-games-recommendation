@@ -1,0 +1,22 @@
+<div class="container pt-4">
+    <div *ngIf="loading">Loading...</div>
+    <div *ngIf="errorMessage">{{ errorMessage }}</div>
+
+    <table class="table table-striped" *ngIf="!loading && !errorMessage">
+
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Game Name</th>
+                <th scope="col">Categories</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let title of gameTitles; let i = index">
+                <th scope="row">{{ i }}</th>
+                <td>{{ title }}</td>
+                <td>{{ userPreferences.join(', ') }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
