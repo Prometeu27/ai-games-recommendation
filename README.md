@@ -2,6 +2,8 @@
 Monkey Playin' is a games recommendation system using AI models.
 Made in collaboration with @robbycode29 (for the django server)
 
+Angular was used for frontend dev, using firebase for authentification, database and storage. Also, an additonal node server was created to process the request sent by the web app.
+
 RO Documentation
 
 1.	Colectia de date 
